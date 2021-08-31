@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title>TRABALHO FINAL</title>
+    <meta charset="utf-8"/> 
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+  </head>
+    
+  <body> 
+    <div id="container1">
+        <h1>AGENDAMENTO - BARBEARIA</h1>
+    </div>
+
+    <div id="container">
+        <form action="salaoinsere.php" method="GET"><br>
+            <div>
+              <input type="text" name="nome"  placeholder="Digite seu nome aqui" required>
+            </div>
+            
+            <div>
+              <select name="dia">
+                  <option value="Selecionar" selected disabled required>Selecione o Dia</option>
+                  <option value="Segunda" required>Segunda-Feira</option>
+                  <option value="Terça" required>Terça-Feira</option>
+                  <option value="Quarta" required>Quarta-Feira</option>
+                  <option value="Quinta" required>Quinta-Feira</option>
+                  <option value="Sexta" required>Sexta-Feira</option>
+                  <option value="Sábado" required>Sábado</option>
+                  <option value="Domingo" required>Domingo</option></b>
+              </select>
+            </div>
+            <div>
+              <select name="horario" required>
+                  <option value="Selecionar" selected disabled>Selecione o Horário</option>
+                  <option value="13:15">13:15</option>
+                  <option value="13:30">13:30</option>
+                  <option value="15:00">15:00</option>
+                  <option value="15:20">15:20</option>
+                  <option value="17:15">17:15</option>
+                  <option value="17:40">17:40</option>
+                  <option value="19:15">19:15</option>
+                  <option value="19:25">19:25</option></b>
+              </select>
+            </div>
+
+            <div>
+                <input type="submit" value="Agendar" name="submit" class = "submit">
+            </div>
+
+        </form>
+        <button onclick="window.location.href ='salaoconsulta.php'" class="submit">Verificar Horários</button>
+     </div>
+    
+</body>
+
+    <div id="container2">
+        <h4>Andrynne de Sousa Carneiro  e  Marcos Daniel F. dos Santos
+        <button onclick="window.location.href ='/1Trabalho_Final/1Trabalho_Final.zip'" download="Trabalho Final" color= #f79300 >Download do Código</button></h4>
+    </div>
+
+</html>

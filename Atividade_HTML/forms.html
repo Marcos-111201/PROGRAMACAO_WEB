@@ -1,0 +1,110 @@
+<HTML>
+
+    <HEAD>
+    <h1 style="background-color:DodgerBlue; text-align:center;">PAGINA DE FORMULARIOS</h1>
+    <HEAD>
+        
+    <BODY>
+        <h3>Links para navegacao:</h3>
+        <a href = "home.html" ign: inherit> Voltar para a pagina inicial </a><br><br>
+
+        <a href="link.html" target="_blank">Visite a pagina de links.</a><br><br>
+        <a href="imagem.html" target="_blank">Visite a pagina de imagens.</a><br><br>
+        <a href="tabelas.html" target="_blank">Visite a pagina de tabelas.</a><br><br>
+
+        <h3>EXERCICIOS:</h3>
+        <p>1)No formulário abaixo, adicione um campo de entrada com o tipo "botão" e o valor "OK".</p>
+        <form>
+            <input type="button" value="OK">
+        </form>
+
+        <br><br><p>2)No formulário abaixo, adicione dois radio buttons, ambos com o nome "gênero".</p>
+        <form>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender"value="female"> Female
+        </form>
+
+        <br><br><p>3)Adicione um botão de envio e especifique que o formulário deve ir para "/action_page.php".</p>
+        <form action="/action_page.php">
+            Name: <input type="text" name="name">
+            <input type="submit">
+        </form>
+
+        <br><br><p>4)Especifique que o formulário é enviado usando o método "POST".</p>
+        <form action="/action_page.php" method="post">
+            Name: <input type="text" name="name">
+            <input type="submit">
+        </form>
+
+        <br><br><p>5)No formulário abaixo, adicione uma lista suspensa vazia com o nome "carros".</p>
+        <form action="/action_page.php">
+            <select name="cars">
+            </select>
+        </form>
+
+        <br><br><p>6)No formulário abaixo, adicione dois elementos de opção à lista suspensa. <br>A primeira opção deve ter o valor "Volvo" <brs></brs>A segunda opção deve ter o valor "Ford".</p>
+
+        <form action="/action_page.php">
+            <select name="cars">
+            <option value="Volvo">Volvo</option>
+            <option value="Ford">Ford</option>
+            </select>
+        </form>
+
+        <br><br><p>7)No formulário abaixo, adicione uma área de texto com o nome "nota".</p>
+        <form action="/action_page.php">
+            <textarea name="note"></textarea>
+        </form>
+
+        <br><br><p>8)No formulário abaixo, adicione um campo de entrada de texto, com o nome "nome de usuário".</p>
+        <form action="/action_page.php">
+            <input type="text" name="username">
+        </form>
+
+        <br><br><p>9)No formulário abaixo, adicione um botão de envio com o valor "Enviar formulário".</p>
+        <form action="/action_page.php">
+            <input type="text" name="username">
+            <input type="submit" value="Submit Form">
+        </form>
+
+        <br><br><p>10)Adicione dois botões de opção com o nome "cor".</p>
+        <form action="/action_page.php">
+            Favorite color:
+            Blue
+            <input value="blue" type="radio" name="color">
+            Red
+            <input value="red" type="radio" name="color">
+            <input type="submit">
+        </form>
+
+        <br><br><p>11)No formulário abaixo, adicione um button> elemento com o texto "Click Me".</p>
+        <form action="/action_page.php">
+            <button>Click Me</button>
+        </form>
+
+        <br><br><p>12)No formulário abaixo, adicione um campo de entrada que pode conter apenas números<br>   Use os atributos de entrada corretos para permitir apenas números entre 1 e 5.</p>
+        <form action="/action_page.php">
+            <input type= "number" min ="1" max ="5">
+        </form>
+
+        <br><br><p>13)No campo de entrada abaixo, adicione um espaço reservado que diz "Seu nome aqui".</p>
+        <form action="/action_page.php">
+            <input type="text" placeholder="Your name here">
+        </form>
+
+        <br><br><p>14)Desative o campo de entrada abaixo.</p>
+        <form action="/action_page.php">
+            <input type="text" disabled>
+        </form>
+
+        <br><br><p>15)Defina o número máximo de caracteres permitidos no campo de entrada para 40.</p>
+        <form action="/action_page.php">
+            <input type="text" maxlength="40">
+        </form>
+
+        <br><br><p>16)Defina o campo de entrada para ser somente leitura (o que significa que o valor não pode ser alterado).</p>
+        <form action="/action_page.php">
+            <input type="text" readonly>
+        </form>
+    <BODY> 
+<HTML>

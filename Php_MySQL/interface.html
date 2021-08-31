@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>ATIVIDADE PHP - MySQL</title>
+        <meta charset="utf-8"/>
+    </head>
+
+    <body>
+        <h1 style="color: Snow; background-color: SteelBlue; text-align:center;">ATIVIDADE PHP - MySQL</h1><br>
+
+        <form action="inserir.php" method="GET">
+            Nome do Funcionário:   <input type="text" name="nome" placeholder="Digite o nome aqui"><br><br>
+            Salário: <input type="text" name="salario" placeholder="Digite o salario aqui"><br><br>
+            
+            <input type="submit" value="Inserir"   name="submit-button">
+            <input type="submit" value="Excluir"   name="submit-button"><br><br>
+
+            <label style="color: red;">OBS1: Para EXCLUIR dados basta colocar o nome da pessoa no CAMPO NOME!</label><br><br>
+
+            <label style="color: red;">OBS2: Para ALTERAR dados basta colocar o novo nome e o novo salário da pessoa nos CAMPOS ACIMA<br>
+                                             e inserir o nome atual da pessoa que quer alterar no CAMPO ABAIXO:</label><br><br>
+
+            Nome Atual: <input type="text" name="nome2" placeholder="Digite aqui o nome atual a ser atualizado" size="32">
+            <input type="submit" value="Atualizar" name="submit-button"><br><br>
+
+            <br><a href = "consulta.php">Consultar Valores</a>
+
+            <label>Link para baixar os aquivos:</label>
+            <a href="/Php_MySQL/Php_MySQL.zip" download="Atividade_Php+MySQL">Download Atividade Php + MySQL</a></b>
+        </form>
+    </body>
+</html>

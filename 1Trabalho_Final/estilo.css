@@ -1,0 +1,173 @@
+body{
+    font-family: fantasy, Broadway, "Trebuchet MS", Trattatello, ;
+    text-align: center;    
+    font-size: 25PX;
+	color: snow;
+	background-image: url("https://marcosd.great-site.net/imagens/barbearia.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+}
+
+#container {
+	width: 600px;
+	height: 350px;
+	background-color: rgba(141, 138, 138, 0.705);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#container1 {
+	width: 850px;
+	height: 65px;
+	background-color: #960000;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#container2 {
+	width: 770px;
+	height: 65px;
+    color: snow;
+	background-color: #960000;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 60px;
+	text-align: center;
+}
+
+#container3 {
+	width: 1200px;
+	height: 768px;
+	background-color: rgba(141, 138, 138, 0.705);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#container4 {
+	width: 670px;
+	height: 450px;
+    color: snow;
+	background-color: rgba(141, 138, 138, 0.705);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+input {
+    text-align: center;
+	height: 50px;
+	width: 71%;
+	font-size: 17px;
+	margin-bottom: 10px;
+    background-color: rgba(73, 71, 71, 0.705);
+	border-style: solid;
+	border-color: rgb(146, 141, 141);
+	border-width: 1px;
+	background-repeat: no-repeat;
+	background-position: 10px;
+    -webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	
+}
+
+select {
+    text-align: center;
+	height: 50px;
+	width: 71%;
+	font-size: 17px;
+	margin-bottom: 10px;
+	background-color: rgba(73, 71, 71, 0.705);
+	padding-left: 40px;
+	border-style: solid;
+	border-color: rgb(146, 141, 141);
+	border-width: 1px;
+	background-repeat: no-repeat;
+	background-position: 10px;
+    -webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+    
+}
+
+::placeholder{
+	color: black;
+}
+
+input.submit {
+    text-align: center;
+	color: snow;
+	background-color: #960000;
+	border: 2px solid  #d30505;
+	padding: 5px 20px;
+	height: 40px;
+	width: 50%;
+
+    -webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+
+	background: -webkit-linear-gradient(to bottom,  #960000, #960000);
+	background: -moz-linear-gradient(to bottom,  #960000, #960000);
+	background: -o-linear-gradient(to bottom,  #960000,  #960000);
+	background: linear-gradient(to bottom,  #960000,  #960000);
+
+}
+
+button.submit{
+	text-align: center;
+	font-size: 15px;
+	color: snow;
+	background-color: #960000;
+	border: 2px solid  #d30505;
+	padding: 5px 20px;
+	height: 40px;
+	width: 50%;
+
+    -webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+
+	background: -webkit-linear-gradient(to bottom,  #960000,  #960000);
+	background: -moz-linear-gradient(to bottom,  #960000,  #960000);
+	background: -o-linear-gradient(to bottom,  #960000,  #960000);
+	background: linear-gradient(to bottom,  #960000,  #960000);
+}
+
+button.submit2{
+	text-align: center;
+	font-size: 18px;
+	color: snow;
+	background-color: #960000;
+	border: 2px solid  #d30505;
+	padding: 5px 20px;
+	height: 55px;
+	width: 28%;
+
+    -webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+
+	background: -webkit-linear-gradient(to bottom,  #960000,  #960000);
+	background: -moz-linear-gradient(to bottom,  #960000,  #960000);
+	background: -o-linear-gradient(to bottom,  #960000,  #960000);
+	background: linear-gradient(to bottom,  #960000,  #960000);
+}
+
+
+
