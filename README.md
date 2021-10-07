@@ -8,6 +8,6 @@
 ### 📚 São encontrados nos códigos conhecimentos como:
 - Formulários, Tabelas, Links, Imagens;
 - Envio de dados dos formulários utilizando PHP básico:
-  - Query String, Hidden, Cookies, Sessions
+  - Query String, Cookies, Sessions
 - Banco de dados e MySQL
 <!--   - Componentes: radio, text, select, entre outros; -->
